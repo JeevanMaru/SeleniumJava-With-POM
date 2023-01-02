@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REGRESSION">
+    <test name="InternetApp Test">
+        <classes>
+            <class name="com.testcases.InternetAppLoginTest" />
+        </classes>
+    </test><!-- Test -->
+    <test name="Actions Test">
+        <classes>
+            <class name="com.testcases.ActionsTest" />
+        </classes>
+    </test><!-- Test -->
+    <test name="HandlingFileActions Test">
+        <classes>
+            <class name="com.testcases.HandlingFileActionsTest" />
+        </classes>
+    </test><!-- Test -->
+    <test name="HandlingDynamicContent Test">
+        <classes>
+            <class name="com.testcases.HandlingDynamicContentTest" />
+        </classes>
+    </test><!-- Test -->
+</suite>
